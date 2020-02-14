@@ -18,7 +18,7 @@ body{
     z-index: 1;
 }
 
-.container{
+.main{
     background-color: whitesmoke;
 }
 
@@ -27,7 +27,7 @@ body{
 }
 
 .lft{
-    background-color: rgb(10,10,10);
+    background: linear-gradient(to bottom, rgb(60,60,60), rgb(10,10,10));
     color: whitesmoke;
     border-left: 3px solid black;
     border-right: 5px solid black;
@@ -74,4 +74,21 @@ body{
     width: 100%;
     padding: 0%;
     margin: 0%;
+}
+
+.allft{
+    text-align: left;
+}
+
+.alrgt{
+    text-align: right;
+}
+
+.formItem{
+    height: 2.5em;
+    border-radius: 4px;
+}
+
+.checkbox{
+    text-align: right;
 }
