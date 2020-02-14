@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700&display=swap&subset=latin-ext');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css');
+@import "header.css";
+
+/* *{border:1px solid black;} /* */
+
+body, html{
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+body{
+    background: lightgray;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #4B1248, #F0C27B);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to left, #4B1248, #F0C27B); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    z-index: 1;
+}
+
+.container{
+    background-color: whitesmoke;
+}
+
+.fullH{
+    height:100%;
+}
+
+.lft{
+    background-color: rgb(10,10,10);
+    color: whitesmoke;
+    border-left: 3px solid black;
+    border-right: 5px solid black;
+    padding-top: 20%;
+}
+
+.rgt{
+    background-color: whitesmoke;
+    padding-top: 20%;
+}
+.rgt *{
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.google{
+    background-image: url("google.png");
+}
+.face{
+    background-image: url("face.png");
+}
+.github{
+    background-image: url("github.png");
+}
+
+.google, .face, .github{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;;
+}
+
+.zauto{
+    margin: 0 auto;
+}
+
+main{
+    padding-top:20%;
+}
+
+#entrar{
+    opacity: 100%;
+    z-index: 999;
+}
