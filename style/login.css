@@ -1,0 +1,50 @@
+.login{
+    border: 5px ridge #6c757d;
+    border-radius: 10px;
+}
+
+.login *{
+    margin: 5px 0 3px 0;
+}
+
+.login h1{
+    margin: 25px 0 40px 0;
+}
+
+.login h5{
+    margin: 25px 0 30px 0;
+}
+
+.login .container:last-child{
+    margin-bottom: 25px;
+}
+
+.google, .face, .github{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;;
+}
+
+.google{
+    background-image: url("../img/google.png");
+}
+.face{
+    background-image: url("../img/face.png");
+}
+.github{
+    background-image: url("../img/github.png");
+}
+
+.formItem{
+    height: 2.5em;
+    border-radius: 4px;
+}
+
+.checkbox{
+    text-align: right;
+    float: right;
+    margin: 0 0 3px 0;
+}

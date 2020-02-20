@@ -2,6 +2,7 @@
 @import url('https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css');
 @import "header.css";
 
+
 /* *{border:1px solid black;} /* */
 
 body, html{
@@ -13,67 +14,26 @@ body, html{
 }
 body{
     background: lightgray;  /* fallback for old browsers */
-    /* background: -webkit-linear-gradient(to right, #4B1248, #F0C27B);  Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to left, #4B1248, #F0C27B); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     z-index: 1;
 }
 
 .main{
     background-color: whitesmoke;
+    margin-top: 50px;
+    height: 100%;
+    opacity: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fullH{
     height:100%;
 }
 
-.lft{
-    background: linear-gradient(to bottom, rgb(60,60,60), rgb(10,10,10));
-    color: whitesmoke;
-    border-left: 3px solid black;
-    border-right: 5px solid black;
-}
-
-.rgt{
-    background-color: whitesmoke;
-}
-.rgt *{
-    margin-top: 5px;
-    margin-bottom: 3px;
-}
-
-.google{
-    background-image: url("../img/google.png");
-}
-.face{
-    background-image: url("../img/face.png");
-}
-.github{
-    background-image: url("../img/github.png");
-}
-
-.google, .face, .github{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;;
-}
-
 .zauto{
     margin: 0 auto;
-}
-
-#entrar{
-    opacity: 100%;
-    z-index: 999;
-}
-
-.h30{
-    height:30%;
-    width: 100%;
-    padding: 0%;
-    margin: 0%;
 }
 
 .allft{
@@ -84,11 +44,7 @@ body{
     text-align: right;
 }
 
-.formItem{
-    height: 2.5em;
-    border-radius: 4px;
-}
-
-.checkbox{
-    text-align: right;
+a{
+    height: 100%;
+    width: 100%;
 }
